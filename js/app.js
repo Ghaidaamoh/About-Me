@@ -1,6 +1,6 @@
 'use strict';
 
-let learn = prompt('do you think that Im learning programming language right now  ( yes , no , n , y )') ;
+let learn = prompt('do you think that Im learning programming language right now  ( yes , no , n , y )').toUpperCase() ;
 while(learn !== 'yes' && learn !== 'no' && learn !== 'y' && learn !== 'n' )
 { 
   learn = prompt('do you think that Im learning programming language right now  ( yes , no , n , y )') ;
@@ -67,24 +67,14 @@ while(coffee !== 'yes' && coffee !== 'no' && coffee !== 'y' && coffee !== 'n' )
 { 
     coffee = prompt('do you think I drink  coffee  ( yes , no , n , y )') ;
 }
-if (coffee == 'yes' || coffee == 'y' )
+if (coffee == 'no' || coffee == 'n' )
 { 
     console.log('that is correct');
     alert('that is correct');
 }
-else if (coffee == 'no' || coffee == 'n'  )
+else if (coffee == 'yes' || coffee == 'y'  )
 { 
     console.log('that is wrong');
     alert('that is wrong');
 }
-  //if (numofhost == '1-5')
- //{
-   //var image = '<img src ="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hostingadvice.com%2Fhow-to%2Ffree-web-hosting%2F&psig=AOvVaw3AGInYkUvpfKZCmiRdIdYG&ust=1618570377214000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDr04eLgPACFQAAAAAdAAAAABAJ" alt= "best host"/>';
-  //document.write(image);
- //}
- //else if (numofhost == '5-10' )
- //{
- // var image2 = '<img src ="img/hosting.jpg" alt= "hosting"/>';
-  // document.write(image2);
- //}
-//}
+  
