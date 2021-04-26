@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,35 @@
     <link rel="stylesheet" href="css/style.css"/>
     
     <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon"/>
 </head>
 <body>
-   <h1>about me guessing game  </h1>
-   <p>my name is ghaidaa mohammad I'm 23 years old, studied management information system in philadelphia university,<br> 
-       I was worked as social media specialist for three months then I decide to improved myself in programming language.   </p>
+    <header>
+
+        <h1>about me guessing game  </h1><br>
+        <script>
+        var userName = prompt("please enter your name?");
+         document.write(`<span id="userName">welcome ${userName}</span>`);
+        </script>
+    </header>
+   <main>
+    <article>
+        <section>
+            <img src="img/guessgame.jpg" alt="pictuer"/>
+        </section>
+        <section>
+            <p>my name is ghaidaa mohammad I'm 23 years old, studied management information system in philadelphia university,</p>
+
+            <p> I was worked as social media specialist for three months then I decide to improved myself in programming language. </p> 
+         
+        </section>
+    </article>
+    </main>
+       <footer>
+        <p class="g1"> copyright 2021 </p>
+        <p class="g1">&hearts; created with love
+        </p>
+    </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>

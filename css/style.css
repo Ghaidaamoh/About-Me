@@ -1,12 +1,29 @@
 p{
-    font-size: 35px;
+    font-size: 20px;
     color: rgb(138, 184, 199);
-    text-align: center;
-    
+    text-align: left;
+    padding-left: 20px;
+    margin: 20px;
 }
 
 h1 {
+    margin: 20px;
     font-size: 35px;
     color: pink;
     text-align: center;
+    padding-top: 20px;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 30%; 
+  }
+  #userName{
+    font-size: 20px;
+    color: rgb(138, 184, 199);
+    text-align: left;
+    padding-left: 20px;
+    margin: 20px;
   }
