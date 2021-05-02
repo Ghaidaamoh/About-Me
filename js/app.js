@@ -6,12 +6,10 @@ function learn() {
         learn = prompt('do you think that Im learning programming language right now  ( yes , no , n , y )');
     }
     if (learn == 'yes' || learn == 'y') {
-        console.log('that is correct');
         alert('that is correct');
         value++;
     }
     else if (learn == 'no' || learn == 'n') {
-        console.log('that is wrong');
         alert('that is wrong');
     }
 }
@@ -21,12 +19,10 @@ function college() {
         college = prompt('do you think I was studied in engineering college   ( yes , no , n , y )');
     }
     if (college == 'no' || college == 'n') {
-        console.log('that is correct');
         alert('that is correct');
         value++;
     }
     else if (college == 'yes' || college == 'y') {
-        console.log('that is wrong');
         alert('that is wrong');
     }
 }
@@ -36,12 +32,10 @@ function status() {
         status = prompt('do you think I\'m single  ( yes , no , n , y )');
     }
     if (status == 'yes' || status == 'y') {
-        console.log('that is correct');
         alert('that is correct');
         value++;
     }
     else if (status == 'no' || status == 'n') {
-        console.log('that is wrong');
         alert('that is wrong');
     }
 
@@ -52,13 +46,11 @@ function live() {
         live = prompt('do you think  I\'m living in jordan  ( yes , no , n , y )');
     }
     if (live == 'yes' || live == 'y') {
-        console.log('that is correct');
         alert('that is correct');
         value++;
 
     }
     else if (live == 'no' || live == 'n') {
-        console.log('that is wrong');
         alert('that is wrong');
     }
 }
@@ -68,20 +60,17 @@ function coffee() {
         coffee = prompt('do you think I drink  coffee  ( yes , no , n , y )');
     }
     if (coffee == 'no' || coffee == 'n') {
-        console.log('that is correct');
         alert('that is correct');
         value++;
 
     }
     else if (coffee == 'yes' || coffee == 'y') {
-        console.log('that is wrong');
         alert('that is wrong');
     }
 }
 function guess() {
     for (let i = 1; i <= 4; i++) {
         let userTried = prompt('guess what is the number?');
-        console.log(userTried);
         let myFavnum = 100;
         if (userTried == myFavnum) {
             alert('correct');
@@ -116,7 +105,7 @@ function favFood() {
             }
         }
         if (flag === false) {
-            console.log('sorry it is not one of them');
+            alert('sorry it is not one of them');
         }  
     } 
     for (let l = 0; l < food.length; l++){
